@@ -1,12 +1,50 @@
-# React + Vite
+# ![cap](https://github.com/user-attachments/assets/dd4ad79f-c91c-4902-850d-debccb5be169)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+⚽ Football Chat Box
 
-Currently, two official plugins are available:
+An interactive football/soccer chat application built with **React** .  
+Powered by the **Google Gemini API**, it delivers smart, AI-generated responses so users can discuss matches, players, and predictions in real time.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
+- 💬 Chat box with auto-scroll to latest messages  
+- 🤖 AI-driven responses via Gemini API  
+- 🎨 Modular and maintainable SCSS styling  
+- 🔒 Secure API key management with `.env`  
+- ⚡ Fast development setup with Vite  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+- [React]– Frontend framework  
+- [Google Generative AI (Gemini API)] – AI responses  
+- [Sass/SCSS]– Styling  
+- [Node.js] – Runtime  
+
+---
+
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/football-chatbox.git
+   cd football-chatbox
+   
+Install dependencies
+
+npm install
+
+Add environment variables
+Create a .env file in the project root:
+
+VITE_GEMINI_API_KEY=your_api_key_here
+
+npm run dev
+
+-------------------
+
+

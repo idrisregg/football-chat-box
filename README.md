@@ -31,12 +31,14 @@ Powered by the **Google Gemini API**, it delivers smart, AI-generated responses 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/football-chatbox.git
+   git clone [https://github.com/idrisregg/football-chat-box.git]
    cd football-chatbox
    
 Install dependencies
 
 npm install
+npm install @google/generative-ai
+npm install sass
 
 Add environment variables
 Create a .env file in the project root:

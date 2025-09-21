@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import './inputs.css';
+import './inputs.scss';
 
 export default function Inputs({onSend, loading}){
     const [input, setInput] = useState("");

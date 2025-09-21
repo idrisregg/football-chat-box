@@ -1,5 +1,5 @@
 import React from "react";
-import './texts.css'
+import './texts.scss'
 import userPfpf from '/pfp.jpg';
 import botPfp from '/bot.jpg';
 import { useEffect, useRef } from "react";

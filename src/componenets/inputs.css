@@ -1,0 +1,33 @@
+.input{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    bottom: 20px;
+    position: fixed;
+    width: 100%;
+}
+.input input{
+    flex: 1;
+    height: 40px;
+    padding: 10px;
+    font-size: medium;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: border-color 0.3s;
+}
+.input button{
+    margin-right: 20px;
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    background-color: teal;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

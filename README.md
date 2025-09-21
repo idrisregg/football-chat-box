@@ -34,13 +34,17 @@ Powered by the **Google Gemini API**, it delivers smart, AI-generated responses 
    git clone [https://github.com/idrisregg/football-chat-box.git]
    cd football-chatbox
    
-Install dependencies
+Install dependencies :
 
 npm install
+
 npm install @google/generative-ai
+
 npm install sass
 
-Add environment variables
+
+Add environment variables:
+
 Create a .env file in the project root:
 
 VITE_GEMINI_API_KEY=your_api_key_here
